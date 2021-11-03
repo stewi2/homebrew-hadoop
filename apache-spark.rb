@@ -7,8 +7,6 @@ class ApacheSpark < Formula
   sha256 "40f58f117efa83a1d0e66030d3561a8d7678f5473d1f3bb53e05c40d8d6e6781"
   head "https://github.com/apache/spark.git"
 
-  bottle :unneeded
-
   depends_on :java => "1.8"
   depends_on "stewi2/homebrew-hadoop/hadoop"
 
